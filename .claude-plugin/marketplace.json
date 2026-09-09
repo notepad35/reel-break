@@ -1,0 +1,12 @@
+{
+  "name": "reel-break",
+  "owner": {
+    "name": "reel-break"
+  },
+  "plugins": [
+    {
+      "name": "reel-break",
+      "source": "./plugins/claude/reel-break"
+    }
+  ]
+}
