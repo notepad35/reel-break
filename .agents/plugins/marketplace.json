@@ -1,0 +1,20 @@
+{
+  "name": "reel-break",
+  "interface": {
+    "displayName": "Reel Break"
+  },
+  "plugins": [
+    {
+      "name": "reel-break",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reel-break"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

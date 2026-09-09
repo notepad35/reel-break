@@ -1,0 +1,48 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/osascript -l JavaScript \"${PLUGIN_ROOT}/scripts/reels.js\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/osascript -l JavaScript \"${PLUGIN_ROOT}/scripts/reels.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/osascript -l JavaScript \"${PLUGIN_ROOT}/scripts/reels.js\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/osascript -l JavaScript \"${PLUGIN_ROOT}/scripts/reels.js\"",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
